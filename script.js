@@ -5,7 +5,7 @@ document.getElementById("currentDay").innerHTML = day;
 
 
 function saveTasks(){
-const input = document.querySelector("#hour8");
+const textArea = document.querySelector(".textarea");
 const btn = document.querySelector(".saveBtn");
 let task = localStorage.getItem("task");
 let hourlyTask = JSON.parse(task) || [];
@@ -16,23 +16,20 @@ if(task){
     hourlyTask = [];
     }
 
-
 for (let i = 0; i < hourlyTask.length; i++){
-    const hour8 = document.querySelector("#hour8")
-    hour8.textContent = hourlyTask[i]
+    textArea.textContent = hourlyTask[i]
     }
 
-
-btn.addEventListener("click", function (event){
+btn.addEventListener("click", function(event){
     event.preventDefault()
-    const currentValue = input.value
+    const currentValue = textArea.value
     hourlyTask.push(currentValue)
-    localStorage.setItem(task.JSON.stringify(hourlyTask))
+    localStorage.setItem("task".JSON.stringify(hourlyTask))
     window.location.reload()
-});
+    });
 }
-
 saveTasks();
+
 
 
 function timeBlocks() {
@@ -52,15 +49,7 @@ function timeBlocks() {
 timeBlocks();
 
 
-// function timeColorBlocks(){
-//     const currentTime = moment().hour()
-//     (".time-block").each(function() {
-//         const block = parseInt(this).attr("class").split ("hour")[1];
-//         if (block < currentTime)
-//         addClass ("future")
-//     }
-//     )
-// }
+
 
 
 
