@@ -1,7 +1,4 @@
 
-///Pseudocode:
-
-
 const date = new Date();
 const day = moment().format('dddd MMMM Do YYYY h:mm:ss a');
 document.getElementById("currentDay").innerHTML = day;
@@ -52,7 +49,6 @@ function timeBlocks() {
         }
     }
 }
-
 timeBlocks();
 
 
