@@ -88,27 +88,30 @@ body {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     font-size: 17px;
-    width: 80px; */ */
+    width: 80px; */
     /* text-align: center; */
     /* justify-content: center;
     padding-top: 5px; */
    
 
-  }
+  /* } */
   
   .past {
-    background-color: #d3d3d3;
+    background-color: #bbb6b6;
     color: white;
+    width: 83.3%;
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: #b3342e;
     color: white;
+    width: 83.3%;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: #64a064;
     color: white;
+    width: 83.3%;
   }
   
   .saveBtn {
@@ -126,4 +129,6 @@ body {
   .saveBtn:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 5px rgb(175, 140, 167);
   }
+  
