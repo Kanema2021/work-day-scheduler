@@ -22,8 +22,8 @@ body {
     border-bottom: 10px solid black;
     background-color: rgb(106, 139, 139);
     height: 260px;
-    
   }
+
   .container {
       grid-row: auto;
   }
@@ -33,9 +33,7 @@ body {
 
   }
   .description {
-    white-space: pre-wrap;
-    
-   
+    white-space: pre-wrap; 
   }
 
   #currentDay {
@@ -57,11 +55,6 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: rgb(182, 183, 184);
-    
-    /* border-top: 1px solid rgb(106, 119, 118); */
-    
-    
-    
   }
   
   .hour {
@@ -75,9 +68,8 @@ body {
     padding-top: 17px;
     border: 1px;
     border-color: lightgray;
-    
   }
-  
+
   .past {
     background-color: #bbb6b6;
     color: white;
@@ -105,7 +97,6 @@ body {
     color: white;
     width: 91px;
     align-self: rigth;
-    
   }
   
   .saveBtn:hover {
