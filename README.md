@@ -20,6 +20,8 @@ https://kanema2021.github.io/work-day-scheduler/
 
 <img width="948" alt="Screen Shot 2021-06-15 at 3 32 31 PM" src="https://user-images.githubusercontent.com/82725636/122132667-1f8b4c80-cdf0-11eb-9e50-e21554c79ad3.png">
 
+https://github.com/Kanema2021/work-day-scheduler/issues/2#issue-933296600
+
 
 This app allows people with busy schedules to manage their time effectively while importing events to a calendar that will save their imputs locally.
 
